@@ -1,0 +1,11 @@
+.project-block {
+  margin: 2%;
+  border: solid black 5px;
+  padding: 2%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.project-images {
+  width: 40%;
+  height: 30%;
+}
