@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Angel Juarez</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <ul class="nav nav-pills">
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./pages/projects.html">Projects</a></li>
-          <li><a href="./pages/bio.html">Bio</a></li>
 
-          <ul class="nav navbar-nav navbar-right">
-              <li><a href="https://www.linkedin.com/in/angel-juarez729">LinkedIn</a></li>
-              <li><a href="https://github.com/angeljuarez77">GitHub</a></li>
-            </ul>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132813130-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132813130-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angel Juarez</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <ul class="nav nav-pills">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./pages/projects.html">Projects</a></li>
+        <li><a href="./pages/bio.html">Bio</a></li>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://www.linkedin.com/in/angel-juarez729">LinkedIn</a></li>
+          <li><a href="https://github.com/angeljuarez77">GitHub</a></li>
         </ul>
-      </div>
-    </nav>
+      </ul>
+    </div>
+  </nav>
+  <h1 class="page-header">Welcome to my website!</h1>
+  <div class="slideshow">
 
-    <div class="container">
-      <h1 class="page-header">Welcome!</h1>
+    <div class="arrows" id="leftArrow"></div> <div class="arrows" id="rightArrow"></div>
 
-      <div class="alert alert-danger">
-          <h1>This has to be started</h1>
-          <h4>I think this would be a cool section where on hover it would have some cool effect</h4>
-      </div>
-
-      <div class="alert alert-warning">
-        <h1>Who am I?</h1>
-        <p>
-          My name is Angel and I am a fullstack web developer. I developed all my web developing skills by going through Per Scholas' codebridge program and General Assembly's Web Development Immersive course. I have experience with  HTML, CSS, Javascript, React, Express.js, Postgres, and Sequelize.
-          <br>
-          <br>
-          I used to work at a yoga studio called Sweet Water Dance & Yoga in the Bronx. During the summer I was a senior counselor in the Roots & Rivers program in this location and during the other 3 seasons I would just volunteer and help maintaing a clean environment and set up for classes as well as tend to the front desk by suggesting dance and or yoga lessons to curious customers.
-        </p>
-      </div>
-
+    <div class="slider-image-wrapper" id="image1">
+      <img class="slider-images" src="./images/minesweeper.png" alt="">
+    </div>
+    <div class="slider-image-wrapper" id="image2">
+      <img class="slider-images" src="./images/stockmarket.png" alt="">
+    </div>
+    <div class="slider-image-wrapper" id="image3">
+      <img class="slider-images" src="./images/foody.png" alt="">
+    </div>
+    <div class="slider-image-wrapper" id="image4">
+      <img class="slider-images" src="./images/newsfromthe6.png" alt="">
     </div>
 
-    <footer class="page-footer alert alert-info">
-      <h5>A Website Made By: Angel Juarez</h5>
-      <h6>With HTML, CSS, and Bootstrap</h6>
-    </footer>
-  </body>
+  </div>
+
+  <footer class="page-footer alert alert-info">
+    <h5>A Website Made By: Angel Juarez</h5>
+    <h6>With HTML, CSS, and Bootstrap</h6>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
 </html>

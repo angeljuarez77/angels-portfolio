@@ -5,3 +5,27 @@
 .page-footer {
   text-align: center;
 }
+.slideshow{
+  margin: 0 auto;
+  width: 98%;
+}
+.slider-images{
+  width: 100%;
+}
+/* this was taken from w3 schools in order to create the arrows style */
+.arrows{
+  border: solid black;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.arrows:hover{
+  cursor: pointer;
+}
+#rightArrow{
+  transform: rotate(-45deg);
+}
+#leftArrow{
+  transform: rotate(135deg);
+}
+/* ^^^^^^^ check out line 16 ^^^^^^^ */
