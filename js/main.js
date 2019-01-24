@@ -1,8 +1,7 @@
 const slideshow = {
   images: document.getElementsByClassName('slider-image-wrapper'),
   hideImages: function(){
-    const images = [...document.getElementsByClassName('slider-image-wrapper')];
-    images.forEach(image => image.style.display = 'none')
+    [...this.images].forEach(image => image.style.display = 'none');
   },
   addingListener: function(){
     const slideshow = document.getElementsByClassName('slideshow')[0];
