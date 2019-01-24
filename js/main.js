@@ -5,12 +5,11 @@ const slideshow = {
   },
   addingListener: function(){
     const slideshow = document.getElementsByClassName('slideshow')[0];
-    slideshow.addEventListener('click', this.sliderFunction);
+    slideshow.addEventListener('click', this.arrowFunction.bind(this));
   },
-  sliderFunction: function(e){
-     let imageNumber = 0;
+  arrowFunction: function(e){
+    let imageNumber = 0;
     if(e.target.id === 'rightArrow'){
-      imageNumber++;
       const image = this.images[imageNumber];
       image.style.display = 'block';
     }
@@ -19,7 +18,11 @@ const slideshow = {
       const image = this.images[imageNumber];
       image.style.display = 'block';
     }
+  },
+  testing: function(e){
+    console.log(this.images);
   }
 }
 slideshow.hideImages();
+slideshow.testing();
 slideshow.addingListener();
