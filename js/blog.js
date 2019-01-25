@@ -4,17 +4,24 @@ class Post{
     this.title = title;
     this.content = content;
     this.dateCreated = dateCreated;
-    this.constructNode = function(){
-      const div = document.createElement('div');
-      const paragraph = document.createElement('p');
+    this.constructTitle = function(){
       const heading = document.createElement('h1');
       const headtext = document.createTextNode(this.title);
+      heading.appendChild(headtext);
+      return heading;
+    },
+    this.constructBody = function(){
+      const paragraph = document.createElement('p');
       const text = document.createTextNode(this.content);
       paragraph.appendChild(text);
-      heading.appendChild(headtext);
-
+      return paragraph;
+    },
+    this.constructNode = function(){
+      const heading = this.constructTitle();
+      const body = this.constructBody();
+      const div = document.createElement('div');
       div.appendChild(heading);
-      div.appendChild(paragraph);
+      div.appendChild(body);
       console.log(div);
     }
   }
