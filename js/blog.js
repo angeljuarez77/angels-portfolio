@@ -4,6 +4,19 @@ class Post{
     this.title = title;
     this.content = content;
     this.dateCreated = dateCreated;
+    this.constructNode = function(){
+      const div = document.createElement('div');
+      const paragraph = document.createElement('p');
+      const heading = document.createElement('h1');
+      const headtext = document.createTextNode(this.title);
+      const text = document.createTextNode(this.content);
+      paragraph.appendChild(text);
+      heading.appendChild(headtext);
+
+      div.appendChild(heading);
+      div.appendChild(paragraph);
+      console.log(div);
+    }
   }
 }
 const firstPost = new Post(
@@ -16,3 +29,5 @@ const firstPost = new Post(
   This is my way of practicing it.`,
   '1/25/2019'
 );
+firstPost.constructNode();
+const listSection = document.getElementsByClassName('blogs-list')[0];
