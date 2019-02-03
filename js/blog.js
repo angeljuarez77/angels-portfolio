@@ -52,7 +52,7 @@ const firstPost = new Post(
   wanted someone that knew how to work with object oriented programming.
   
   This is my way of practicing it.`,
-  'Janurary 25, 2019'
+  'January 25, 2019'
 );
 firstPost.mountNode();
 const secondPost = new Post(
