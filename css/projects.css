@@ -1,7 +1,10 @@
-.project-block {
+.project-block{
   margin: 2%;
+  margin-bottom: 0px;
   border: solid black 5px;
   padding: 2%;
+}
+.sub-project-block {
   display: flex;
   justify-content: space-evenly;
 }
@@ -13,7 +16,8 @@
   height: 30%;
 }
 .lessons-learned{
-  border: solid blue;
+  margin-top: 1%;
+  border-top: 1px solid black;
 }
 .page-footer {
   text-align: center;
