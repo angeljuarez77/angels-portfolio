@@ -8,10 +8,9 @@ const slideshow = {
   initializeSlideNum: function(){
     localStorage.setItem('slide-number', 0);
   },
-  arrowFunction: function(e){
+  rightArrow: function(){
     let imageNumber = localStorage.getItem('slide-number');
-    if(e.target.id === 'rightArrow'){
-      imageNumber++;
+    imageNumber++;
       if(imageNumber > this.images.length - 1){
         imageNumber = 0;
       };
@@ -24,10 +23,10 @@ const slideshow = {
       const previousImage = this.images[previousImageNum];
       previousImage.style.display = 'none';
       image.style.display = 'block';
-    }
-    // split
-    if(e.target.id === 'leftArrow'){
-      imageNumber--;
+  },
+  leftArrow: function(){
+    let imageNumber = localStorage.getItem('slide-number');
+    imageNumber--;
       if(imageNumber < 0){
         imageNumber = this.images.length - 1;
       }
@@ -38,17 +37,28 @@ const slideshow = {
         previousImageNum = 0;
       }
       const previousImage = this.images[previousImageNum];
-      console.log(previousImageNum);
-      console.log(previousImage);
-      console.log(image);
       previousImage.style.display = 'none';
       image.style.display = 'block';
+  },
+  arrowFunction: function(e){
+    if(e.target.id === 'rightArrow'){
+      this.rightArrow(e);
+    }
+    if(e.target.id === 'leftArrow'){
+      this.leftArrow();
     }
   },
   addingListener: function(){
     const slideshow = document.getElementsByClassName('slideshow')[0];
     slideshow.addEventListener('click', this.arrowFunction.bind(this));
   },
+  showFirst: function(){
+    this.images[localStorage.getItem('slide-number')].style.display = 'block';
+  },
+  activate: function(){
+    this.hideImages();
+    this.showFirst();
+    this.addingListener();
+  }
 }
-slideshow.hideImages();
-slideshow.addingListener();
+slideshow.activate();
