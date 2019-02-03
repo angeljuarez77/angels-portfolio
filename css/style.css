@@ -11,6 +11,15 @@
 }
 .slider-images{
   width: 100%;
+  animation: image-reveal 1s ease-out forwards;
+}
+@keyframes image-reveal{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 /* this was taken from w3 schools in order to create the arrows style */
 .arrows{
@@ -28,4 +37,4 @@
 #leftArrow{
   transform: rotate(135deg);
 }
-/* ^^^^^^^ check out line 16 ^^^^^^^ */
+/* ^^^^^^^ check out line 15 ^^^^^^^ */

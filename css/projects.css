@@ -5,9 +5,15 @@
   display: flex;
   justify-content: space-evenly;
 }
+.project-descriptions{
+  width: 80%;
+}
 .project-images {
   width: 40%;
   height: 30%;
+}
+.lessons-learned{
+  border: solid blue;
 }
 .page-footer {
   text-align: center;
