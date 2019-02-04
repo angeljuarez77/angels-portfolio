@@ -57,6 +57,7 @@ const slideshow = {
   },
   activate: function(){
     this.hideImages();
+    this.initializeSlideNum();
     this.showFirst();
     this.addingListener();
   }
