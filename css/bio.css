@@ -1,3 +1,18 @@
+.bio-description{
+  border: dotted black;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 12px;
+}
+.bio-heading{
+  border-bottom: solid 1px black;
+  padding-bottom: 1%;
+}
+.bio-paragraph{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 200%;
+}
 .page-footer {
+  margin-top: 6%;
   text-align: center;
 }

@@ -2,7 +2,7 @@
 const slideshow = {
   images: document.getElementsByClassName('slider-image-wrapper'),
   hideImages: function(){
-    // spread operator used because by default they are dom nodes and I had to convert them from an array of dom nodes to an iterable one
+    // spread operator needed. from dom nodes to iterable ones
     [...this.images].forEach(image => image.style.display = 'none');
   },
   initializeSlideNum: function(){

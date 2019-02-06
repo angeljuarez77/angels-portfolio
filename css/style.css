@@ -2,16 +2,16 @@
   border-bottom: 0px;
   margin: 0px;
 }
-.page-footer {
-  text-align: center;
-}
 .slideshow{
   margin: 0 auto;
   width: 98%;
+  border: solid black 1px;
+  /* display: flex; */
+  /* justify-content: space-evenly; */
 }
 .slider-images{
   width: 100%;
-  animation: image-reveal 1s ease-out forwards;
+  animation: image-reveal 1s ease-in-out forwards;
 }
 @keyframes image-reveal{
   0%{
@@ -23,7 +23,7 @@
 }
 /* this was taken from w3 schools in order to create the arrows style */
 .arrows{
-  border: solid black;
+  border: solid blue;
   border-width: 0 6px 6px 0;
   display: inline-block;
   padding: 3px;
@@ -33,8 +33,13 @@
 }
 #rightArrow{
   transform: rotate(-45deg);
+  float: right;
 }
 #leftArrow{
   transform: rotate(135deg);
 }
 /* ^^^^^^^ check out line 15 ^^^^^^^ */
+.page-footer {
+  margin-top: 6%;
+  text-align: center;
+}
