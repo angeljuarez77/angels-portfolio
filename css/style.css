@@ -5,9 +5,12 @@
 .slideshow{
   margin: 0 auto;
   width: 98%;
-  border: solid black 1px;
-  /* display: flex; */
-  /* justify-content: space-evenly; */
+  display: flex;
+  justify-content: space-around;
+}
+.slider-image-wrapper{
+  border: solid red 4px;
+  height: 563px;
 }
 .slider-images{
   width: 100%;
@@ -21,12 +24,17 @@
     opacity: 1;
   }
 }
+.arrow-wrapper{
+  margin-top: 20%;
+  padding: 0px;
+  height: min-content;
+}
 /* this was taken from w3 schools in order to create the arrows style */
 .arrows{
   border: solid blue;
   border-width: 0 6px 6px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 20px;
 }
 .arrows:hover{
   cursor: pointer;
@@ -38,7 +46,7 @@
 #leftArrow{
   transform: rotate(135deg);
 }
-/* ^^^^^^^ check out line 15 ^^^^^^^ */
+/* ^^^^^^^ check out above ^^^^^^^ */
 .page-footer {
   margin-top: 6%;
   text-align: center;
