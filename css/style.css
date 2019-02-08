@@ -9,7 +9,8 @@
   justify-content: space-around;
 }
 .slider-image-wrapper{
-  height: 563px;
+  background-color: grey;
+  height: 560px;
 }
 .slider-images{
   width: 100%;
@@ -46,6 +47,37 @@
   transform: rotate(135deg);
 }
 /* ^^^^^^^ check out above ^^^^^^^ */
+.section-title{
+  text-align: center;
+}
+
+.learned-technologies-section{
+  margin-top: 6%;
+}
+.logo-image-section{
+  text-align: center;
+}
+.three-front-end-wrapper{
+  display: flex;
+}
+.three-front-end-images-div{
+  width: 30%;
+}
+.three-front-end-images{
+  height: 100%;
+}
+.technology-images{
+  width: 33%;
+}
+/*
+.full-stack-technologies-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.backend-wrappers{
+  border: solid red 1px;
+}
+*/
 .page-footer {
   margin-top: 6%;
   text-align: center;
