@@ -1,3 +1,12 @@
+.contact-me-cover{
+  background-image: url(http://placekitten.com/1400/700);
+  /* min-height: 100vh; */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-me-text{
+  text-align: center;
+}
 .page-footer {
   margin-top: 6%;
   text-align: center;
