@@ -1,10 +1,6 @@
 body {
   height: 100%;
   width: 100%;
-  /* 
-  background-repeat: no-repeat;
-  background-image: url(../images/purple-nebula.jpg);
-  */
   background: linear-gradient(45deg, #4D1843, #34318A); }
 
 .nav-tabs {
@@ -56,33 +52,6 @@ body {
 .section-title {
   text-align: center; }
 
-.learned-technologies-section {
-  margin-top: 6%; }
-
-.logo-image-section {
-  text-align: center; }
-
-.three-front-end-wrapper {
-  display: flex; }
-
-.three-front-end-images-div {
-  width: 30%; }
-
-.three-front-end-images {
-  height: 100%; }
-
-.technology-images {
-  width: 33%; }
-
-/*
-.full-stack-technologies-wrapper{
-  display: flex;
-  justify-content: center;
-}
-.backend-wrappers{
-  border: solid red 1px;
-}
-*/
 .page-footer {
   margin-top: 6%;
   text-align: center; }
