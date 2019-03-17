@@ -3,5 +3,5 @@
 "mappings": "AAAA,YAAa;EACX,UAAU,EAAE,EAAE;EACd,UAAU,EAAE,MAAM",
 "sources": ["../_footer-styling.scss"],
 "names": [],
-"file": "bio-output.css"
+"file": "contact-output.css"
 }
