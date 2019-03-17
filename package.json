@@ -1,5 +1,23 @@
 {
   "dependencies": {
-    "bootstrap": "4.2.1"
-  }
+    "bootstrap": "^4.2.1"
+  },
+  "name": "angels-portfolio",
+  "description": "This is the repository to [angeljuarez.net](http://angeljuarez.net/).",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeljuarez77/angels-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeljuarez77/angels-portfolio/issues"
+  },
+  "homepage": "https://github.com/angeljuarez77/angels-portfolio#readme"
 }
