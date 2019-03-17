@@ -1,0 +1,26 @@
+.project-block {
+  margin: 2%;
+  margin-bottom: 0px;
+  border: solid black 5px;
+  padding: 2%; }
+
+.sub-project-block {
+  display: flex;
+  justify-content: space-evenly; }
+
+.project-descriptions {
+  width: 80%; }
+
+.project-images {
+  width: 40%;
+  height: 30%; }
+
+.lessons-learned {
+  margin-top: 1%;
+  border-top: 1px solid black; }
+
+.page-footer {
+  margin-top: 6%;
+  text-align: center; }
+
+/*# sourceMappingURL=projects-output.css.map */
