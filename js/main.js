@@ -62,4 +62,4 @@ const slideshow = {
     this.addingListener();
   }
 }
-slideshow.activate();
+// slideshow.activate();
