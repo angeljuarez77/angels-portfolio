@@ -1,12 +1,6 @@
-body{
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(45deg, #4D1843, #34318A);
-}
-.nav-tabs {
-  border-bottom: 0px;
-  margin: 0px;
-}
+@import '../navbar-styling';
+@import '../footer-styling';
+
 .slideshow{
   margin: 0 auto;
   width: 98%;
@@ -53,10 +47,5 @@ body{
 }
 /* ^^^^^^^ check out above ^^^^^^^ */
 .section-title{
-  text-align: center;
-}
-
-.page-footer {
-  margin-top: 6%;
   text-align: center;
 }
