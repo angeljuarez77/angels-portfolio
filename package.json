@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "bootstrap": "^4.2.1"
+    "bootstrap": "^4.2.1",
+    "eslint": "^5.16.0"
   },
   "name": "angels-portfolio",
   "description": "This is the repository to [angeljuarez.net](http://angeljuarez.net/).",
