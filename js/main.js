@@ -63,3 +63,5 @@ const slideshow = {
   }
 }
 // slideshow.activate();
+
+$("#carousel").carousel();

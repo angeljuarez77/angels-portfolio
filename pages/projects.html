@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132813130-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'UA-132813130-1');
@@ -18,7 +19,8 @@
   <title>Angel | Projects</title>
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../css/projects-page/projects-output.css">
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,50 +29,60 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
   <nav>
-    <div>
-      <ul class="nav nav-tabs nav-justified">
-        <li><a href="../index.html">Home</a></li>
-        <li class="active"><a href="./pages/projects.html">Projects</a></li>
-        <li><a href="./bio.html">Bio</a></li>
-        <!-- <li><a href="./blog.html">Blog</a></li> -->
-        <li><a href="./contactme.html">Contact Me</a></li>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" href="../index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="./projects.html">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./bio.html">My Bio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./contactme.html">Contact Me</a>
+      </li>
 
-        <!-- <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://www.linkedin.com/in/angel-juarez729">LinkedIn</a></li>
-          <li><a href="https://github.com/angeljuarez77">GitHub</a></li>
-        </ul> -->
-      </ul>
-    </div>
+      <!-- <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://www.linkedin.com/in/angel-juarez729">LinkedIn</a></li>
+            <li><a href="https://github.com/angeljuarez77">GitHub</a></li>
+          </ul> -->
+    </ul>
   </nav>
-    
+
   <div class="container">
     <h1 class="page-header">My Completed Projects</h1>
     <!-- maybe I should use thumbnails? https://getbootstrap.com/docs/3.3/components/#thumbnails -->
 
     <div class="project-block" id="Minesweeper">
-    <div class="sub-project-block">
-      <div>
-        <a href="http://shallow-club.surge.sh/" target="_blank">Minesweeper</a>
+      <div class="sub-project-block">
+        <div>
+          <a href="http://shallow-club.surge.sh/" target="_blank">Minesweeper</a>
 
-        <p class="project-descriptions">
-          This is my first solo project. I chose this one so that I could learn how to use 2-dimensional arrays. 
-          <br>
-          <br>
-          I also chose to challenge myself by not using any hardcoded HTML and used elements created in JS since I knew that I would be using react later and thought that it would help with keeping track of pieces of information while thinking.
-        </p> 
+          <p class="project-descriptions">
+            This is my first solo project. I chose this one so that I could learn how to use 2-dimensional arrays.
+            <br>
+            <br>
+            I also chose to challenge myself by not using any hardcoded HTML and used elements created in JS since I
+            knew that I would be using react later and thought that it would help with keeping track of pieces of
+            information while thinking.
+          </p>
 
+        </div>
+
+        <img class="project-images" src="../images/project-images/minesweeper.png" alt="">
       </div>
-      
-      <img class="project-images" src="../images/project-images/minesweeper.png" alt="">
-    </div>
       <div class="lessons-learned">
         <h3>Lessons learned:</h3>
         <p>
-          I learned that I should definitely figure out how to approach the problem I have in concept before I start working on it on my computer.
-          I began mixing up a lot of my code and functionalities so I decided that maybe I should tackle on bigger concepts and go down to the very fine details. 
-          This project taught me how to use the debugger in chrome. 
+          I learned that I should definitely figure out how to approach the problem I have in concept before I start
+          working on it on my computer.
+          I began mixing up a lot of my code and functionalities so I decided that maybe I should tackle on bigger
+          concepts and go down to the very fine details.
+          This project taught me how to use the debugger in chrome.
         </p>
         <h4>Technologies Used</h4>
         <ul>
@@ -86,9 +98,11 @@
         <div>
 
           <a href="http://smooth-babies.surge.sh/" target="_blank">Stock Market View</a>
-          
+
           <p class="project-descriptions">
-            This project was the first project I completed with React. I wanted to learn how to use a lot of numerical data and then display them on screen in a way that anyone could understand without reading through 100 lines of numbers. 
+            This project was the first project I completed with React. I wanted to learn how to use a lot of numerical
+            data and then display them on screen in a way that anyone could understand without reading through 100 lines
+            of numbers.
           </p>
         </div>
         <img class="project-images" src="../images/project-images/stockmarket.png" alt="">
@@ -96,8 +110,10 @@
       <div class="lessons-learned">
         <h3>Lessons learned:</h3>
         <p>
-          In this project I learned a lot about how to use third party API's and how to choose which features and pieces I would need and or want to implement.
-          I also learned about npm libraries that I could use. Because I had to read the libraries documentation and the API's documentation I learned how to navigate through large amounts of information efficiently.
+          In this project I learned a lot about how to use third party API's and how to choose which features and pieces
+          I would need and or want to implement.
+          I also learned about npm libraries that I could use. Because I had to read the libraries documentation and the
+          API's documentation I learned how to navigate through large amounts of information efficiently.
         </p>
         <h4>Technologies Used</h4>
         <ul>
@@ -116,8 +132,10 @@
 
           <p class="project-descriptions">
             This was the group project assigned to us in General Assembly. I was the "Git Tsar" for my team.<br><br>
-            This led to me being in charge of keeping everyone in tune as to how to use git and github and collaborate as well as accepting or rejecting pull requests. <br><br>
-            This slowly turned to me being the unofficial leader of the group where I would suggest things we have to work on or want to work on and then delegate them according to the teams preferences and capabilities. 
+            This led to me being in charge of keeping everyone in tune as to how to use git and github and collaborate
+            as well as accepting or rejecting pull requests. <br><br>
+            This slowly turned to me being the unofficial leader of the group where I would suggest things we have to
+            work on or want to work on and then delegate them according to the teams preferences and capabilities.
           </p>
 
         </div>
@@ -126,7 +144,9 @@
       <div class="lessons-learned">
         <h3>Lessons learned:</h3>
         <p>
-          As the git tsar I learned a lot about how to use git and collaborate using it as well as keeping track of app versions so that I could explain these concepts to my teammates and make sure they were always on the same page. 
+          As the git tsar I learned a lot about how to use git and collaborate using it as well as keeping track of app
+          versions so that I could explain these concepts to my teammates and make sure they were always on the same
+          page.
           I also learned a lot about maintaining a good team atmosphere especially during a very stressful time.
         </p>
         <h4>Technologies Used</h4>
@@ -146,7 +166,8 @@
 
           <p class="project-descriptions">
             This project was our final solo project within General Assembly. <br><br>
-            I chose to make a single website to have different levels of authorization. For example some people could only read posts others have full CRUD on posts etc. depending on your type of authorization.
+            I chose to make a single website to have different levels of authorization. For example some people could
+            only read posts others have full CRUD on posts etc. depending on your type of authorization.
           </p>
         </div>
         <img class="project-images" src="../images/project-images/newsfromthe6.png" alt="">
@@ -155,7 +176,7 @@
       <div class="lessons-learned">
         <h3>Lessons learned:</h3>
         <p>
-          I learned about how to use more pieces of information in my databases. 
+          I learned about how to use more pieces of information in my databases.
           I used to only use very minimal/simple information and every feature would be one dimensional.
         </p>
         <h4>Technologies Used</h4>
@@ -179,4 +200,5 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>
