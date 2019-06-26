@@ -2,7 +2,8 @@
 @import '../footer-styling';
 
 .slideshow{
-  margin: 0 auto;
+  border: solid red 1px;
+  margin: 1% auto;
   width: 98%;
   display: flex;
   justify-content: space-around;
