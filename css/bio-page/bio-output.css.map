@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,YAAa;EACX,UAAU,EAAE,EAAE;EACd,UAAU,EAAE,MAAM",
-"sources": ["../_footer-styling.scss"],
-"names": [],
-"file": "bio-output.css"
-}
+{"version":3,"sourceRoot":"","sources":["../_footer-styling.scss","bio-input.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;ACAF;EACE","file":"bio-output.css"}
