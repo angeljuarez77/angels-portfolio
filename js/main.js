@@ -64,4 +64,4 @@ const slideshow = {
 }
 // slideshow.activate();
 
-$("#carousel").carousel();
+// $("#carousel").carousel();
